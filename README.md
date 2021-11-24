@@ -17,7 +17,8 @@ Normal notebook:
 - GPU supported notebook (Take significantly higher space and installation time):
 
    GPU supported notebook with Tensorflow and Pytorch support   
-**Prerequisite**: NVIDIA driver installed on device.
+
+   **Prerequisite**: NVIDIA driver installed on device.
 
     - Jupyter notebook with Pytorch (Take longer to load): `docker-compose -f docker-compose.dev.yml up jupyter-pytorch --build`
         - Test with `src/pytorch_hello_world.ipynb`
