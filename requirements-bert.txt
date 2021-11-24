@@ -1,0 +1,5 @@
+pythainlp==2.3.2
+emoji==1.6.1
+transformers==3.5.0
+seqeval==1.2.2
+langdetect==1.0.9

@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  jupyter:
+    build:
+      context: .
+    ports:
+      - 8888:8888
+    working_dir: /work
+    volumes:
+      - ./src:/work:cached
+    container_name: jupyter-notebook-container
+
+  jupyter-pytorch:
+    build:
+      context: .
+      dockerfile: Dockerfile.pytorch
+    ports:
+      - 8888:8888
+    working_dir: /work
+    volumes:
+      - ./src:/work:cached
+    container_name: jupyter-notebook-container-pytorch
+
+  jupyter-pytorch-bert:
+    build:
+      context: .
+      dockerfile: Dockerfile.pytorch-bert
+    ports:
+      - 8888:8888
+    working_dir: /work
+    volumes:
+      - ./src:/work:cached
+    container_name: jupyter-notebook-container-pytorch-bert
