@@ -2,7 +2,10 @@
 
 ## Status
 
-Proof of concept. There are many things to be tuned and fixed. 
+**Proof of concept 🚧**: There are many things to be tuned and fixed. 
+
+## Why we need this
+When doing machine learning project, one of the problems data science practioners face is depedencies and environment mismatched problem. For example, installing tensorflow GPU support on NVIDIA GPU required correct version of CUDA and CUDNN. With container boilerplace, we can predefined environment and depedencies to make our model **easier to be trained on cloud instances** and **controllable environment for deployment**.
 
 ## Getting start:
 Fast and easy notebook equipped with out of the box data science tools
