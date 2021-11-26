@@ -12,16 +12,24 @@ When doing machine learning project, one of the problems data science practioner
     
     Fast and easy notebook equipped with out of the box data science tools
 
-    - Jupyter notebook: `docker-compose -f docker-compose.dev.yml up jupyter --build`  
+    - Jupyter notebook:   
+    `docker-compose -f docker-compose.dev.yml up jupyter --build`  
         - Tested with `src/03.1-Classification-SVMs.ipynb`
 
 - **GPU supported notebook**:
 
    GPU supported notebook with NVIDIA NGC Docker template for Deep Learning projects   
 
-   **Prerequisite**: NVIDIA driver installed on device.
+   **Prerequisite**: NVIDIA driver installed on device Please follow this [tutorial]().   
+   **Windows prerequisite**: Need WSL2 and Windows 11. 
 
-    - Jupyter notebook with Pytorch (Take longer to load): `docker-compose -f docker-compose.dev.yml up jupyter-pytorch --build`
+    **For first time installation**:   
+    `docker pull nvcr.io/nvidia/pytorch:20.01-py3`
+   
+
+    - Jupyter notebook with Pytorch (Take longer to load):   
+     `docker-compose -f docker-compose.dev.yml up jupyter-pytorch --build`
         - Test with `src/pytorch_hello_world.ipynb`
-    - Jupyter notebook Pytorch and WangchanBERTa: `docker-compose -f docker-compose.dev.yml up jupyter-pytorch-bert --build`
+    - Jupyter notebook Pytorch and WangchanBERTa:    
+    `docker-compose -f docker-compose.dev.yml up jupyter-pytorch-bert --build`
         - Test with `src/wangchanberta_getting_started_aireseach.ipynb`

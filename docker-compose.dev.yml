@@ -21,6 +21,14 @@ services:
     volumes:
       - ./src:/work:cached
     container_name: jupyter-notebook-container-pytorch
+    ## Uncomment the below lines if your device don't have suported GPUs 
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
 
   jupyter-pytorch-bert:
     build:
@@ -32,3 +40,11 @@ services:
     volumes:
       - ./src:/work:cached
     container_name: jupyter-notebook-container-pytorch-bert
+    ## Uncomment the below lines if your device don't have suported GPUs 
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
