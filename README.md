@@ -8,7 +8,7 @@
 When doing machine learning project, one of the problems data science practioners face is depedencies and environment mismatched problem. For example, installing tensorflow GPU support on NVIDIA GPU required correct version of CUDA and CUDNN. With container boilerplace, we can predefined environment and depedencies to make our model **easier to be trained on cloud instances** and **controllable environment for deployment**.
 
 ## Getting start:
-- **Standard notebook**:
+### Standard notebook:
     
     Fast and easy notebook equipped with out of the box data science tools
 
@@ -16,12 +16,12 @@ When doing machine learning project, one of the problems data science practioner
     `docker-compose -f docker-compose.dev.yml up jupyter --build`  
         - Tested with `src/03.1-Classification-SVMs.ipynb`
 
-- **GPU supported notebook**:
+### GPU supported notebook:
 
    GPU supported notebook with NVIDIA NGC Docker template for Deep Learning projects   
 
-   **Prerequisite**: NVIDIA driver installed on device Please follow this [tutorial]().   
-   **Windows prerequisite**: Need WSL2 and Windows 11. 
+   **Prerequisite**: NVIDIA driver installed on device Please follow this [tutorial](https://docs.nvidia.com/cuda/wsl-user-guide/index.html).   
+   **Additional information for Windows users**: Docker with GPU is only supported on Windows 11 or Insider preview of Windows 10. 
 
     **For first time installation**:   
     `docker pull nvcr.io/nvidia/pytorch:20.01-py3`
