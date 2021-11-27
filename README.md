@@ -1,8 +1,8 @@
 # Jupyter Data Science Docker Boilerplate
 
-## Status
+## Project Status
 
-**Proof of concept 🚧**: There are many things need to be added, improved, and fixed. 
+**Beta 🚧**: Notebooks are ready for development on Containers and Google Colab. However, There are many things need to be tested, added, and improved. 
 
 ## Why we need this?
 When doing machine learning project, one of the problems data science practioners face is depedencies and environment mismatched problem. For example, installing tensorflow GPU support on NVIDIA GPU required correct version of CUDA and CUDNN. With container boilerplace, we can predefined environment and depedencies to make our model **easier to be trained on cloud instances** and **controllable environment for deployment**.
@@ -43,7 +43,7 @@ For first time installation - **Run this first**:
     - Tested with `src/wangchanberta_getting_started_aireseach.ipynb`
     - Colab parity: [link](https://colab.research.google.com/github/new5558/Jutyper-Data-Science-Docker-Boilerplate/blob/master/src/wangchanberta_getting_started_aireseach.ipynb)
 
-### Project status
+### Project roadmap
 - [x] Tested all containers locally
 - [x] Tested all notebooks on Google Colab
 - [ ] Tested Nivida GPU support with Windows 11 WSL2
