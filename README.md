@@ -47,6 +47,5 @@ For first time installation - **Run this first**:
 - [x] Tested all containers locally
 - [x] Tested all notebooks on Google Colab
 - [ ] Tested Nivida GPU support with Windows 11 WSL2
-- [ ] Tested Nivida GPU support with MacOS
-- [ ] Tested Nivida GPU support with Linux (Cloud compute engine)
-- [ ] Setup tensorflow container
+- [ ] Tested Nivida GPU support with Linux (cloud compute engine)
+- [ ] Add Jupyter notebook Tensorflow container
