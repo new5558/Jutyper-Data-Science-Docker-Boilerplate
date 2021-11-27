@@ -7,7 +7,7 @@
 ## Why we need this?
 When doing machine learning project, one of the problems data science practioners face is depedencies and environment mismatched problem. For example, installing tensorflow GPU support on NVIDIA GPU required correct version of CUDA and CUDNN. With container boilerplace, we can predefined environment and depedencies to make our model **easier to be trained on cloud instances** and **controllable environment for deployment**.
 
-These notebook Docker containers are designed to have **Google Colab parity**.Users should be able to train model on their private Cloud, Google Colab, Computer without dependeicies problem. 
+These notebook Docker containers are designed to have **Google Colab parity**. Users should be able to train model on their private cloud, Google Colab and, computer without dependeicies problem. 
 
 ## Getting start:
 
@@ -22,7 +22,7 @@ Fast and easy notebook equipped with out of the box data science tools
     - Tested with `src/03.1-Classification-SVMs.ipynb`
     - Colab parity: [link](https://colab.research.google.com/github/new5558/Jutyper-Data-Science-Docker-Boilerplate/blob/master/src/03.1-Classification-SVMs.ipynb)
 
-### GPU supported notebook:
+### Nivida GPU supported notebook:
 
 GPU supported notebook with NVIDIA NGC Docker template for Deep Learning projects   
 
@@ -42,3 +42,11 @@ For first time installation - **Run this first**:
 `docker-compose -f docker-compose.dev.yml up jupyter-pytorch-bert --build`
     - Tested with `src/wangchanberta_getting_started_aireseach.ipynb`
     - Colab parity: [link](https://colab.research.google.com/github/new5558/Jutyper-Data-Science-Docker-Boilerplate/blob/master/src/wangchanberta_getting_started_aireseach.ipynb)
+
+### Project status
+- [x] Tested all containers locally
+- [x] Tested all notebooks on Google Colab
+- [ ] Tested Nivida GPU support with Windows 11
+- [ ] Tested Nivida GPU support with MacOS
+- [ ] Tested Nivida GPU support with Linux
+- [ ] Setup tensorflow container
