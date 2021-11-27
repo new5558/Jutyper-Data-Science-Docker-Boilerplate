@@ -7,5 +7,6 @@ ADD requirements-bert.txt ./requirements-bert.txt
 RUN pip install -r requirements-bert.txt
 
 RUN pip install thai2transformers==0.1.2 --no-dependencies
+RUN pip install pycaret==2.3
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
