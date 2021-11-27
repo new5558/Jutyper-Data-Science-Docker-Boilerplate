@@ -35,10 +35,10 @@ For first time installation - **Run this first**:
 
 - Jupyter notebook with Pytorch (Take longer to load):   
     `docker-compose -f docker-compose.dev.yml up jupyter-pytorch --build`
-    - Test with `src/pytorch_hello_world.ipynb`    
+    - Tested with `src/pytorch_hello_world.ipynb`    
     - Colab parity: [link](https://colab.research.google.com/github/new5558/Jutyper-Data-Science-Docker-Boilerplate/blob/master/src/pytorch_hello_world.ipynb)
 
 - Jupyter notebook Pytorch and WangchanBERTa:    
 `docker-compose -f docker-compose.dev.yml up jupyter-pytorch-bert --build`
-    - Test with `src/wangchanberta_getting_started_aireseach.ipynb`
+    - Tested with `src/wangchanberta_getting_started_aireseach.ipynb`
     - Colab parity: [link](https://colab.research.google.com/github/new5558/Jutyper-Data-Science-Docker-Boilerplate/blob/master/src/wangchanberta_getting_started_aireseach.ipynb)
