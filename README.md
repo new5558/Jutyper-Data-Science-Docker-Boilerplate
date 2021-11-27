@@ -29,7 +29,7 @@ GPU supported notebook with NVIDIA NGC Docker template for Deep Learning project
 **Prerequisite**: NVIDIA driver installed on your device.   
 **Additional information for Windows users**: Docker with GPU is only supported on Windows 11 or Insider preview of Windows 10. For more information please follow this [tutorial](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)     
 
-**For first time installation**:   
+For first time installation - **Run this first**:   
     `docker pull nvcr.io/nvidia/pytorch:20.01-py3`
    
 
