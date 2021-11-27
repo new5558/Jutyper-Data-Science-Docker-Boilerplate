@@ -19,7 +19,7 @@ Fast and easy notebook equipped with out of the box data science tools
 
 - Jupyter notebook:   
 `docker-compose -f docker-compose.dev.yml up jupyter --build`  
-    - Tested with `src/03.1-Classification-SVMs.ipynb`
+    - Tested with `src/standard_notebook.ipynb`
     - Colab parity: [link](https://colab.research.google.com/github/new5558/Jutyper-Data-Science-Docker-Boilerplate/blob/master/src/standard_notebook.ipynb)
 
 ### Nivida GPU supported notebook:
